@@ -1,6 +1,6 @@
 import { useGlobalState } from "../../Context/GlobalState"
 
-export const Balance = () => {
+const Balance = () => {
 
     const data = useGlobalState();
 
@@ -12,3 +12,5 @@ export const Balance = () => {
     )
 
 }
+
+export default Balance

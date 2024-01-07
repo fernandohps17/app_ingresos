@@ -4,6 +4,7 @@ export default (state, action) => {
         case "ADD_TRANSACTION":
             return state 
         default: 
+            return state
     }
 
 }
