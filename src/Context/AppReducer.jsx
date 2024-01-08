@@ -2,11 +2,13 @@ export default (state, action) => {
 
     switch(action.type) {
         case "ADD_TRANSACTION":
-            return state 
+            return{
+                transactions: [...state.transactions, action.payload] 
+            }
         default: 
             return state
     }
 
 }
 
-// minuto 17 segundo 53
+// minuto 31 segundo 19
